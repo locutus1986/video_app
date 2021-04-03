@@ -10,7 +10,7 @@ const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null)
     const [videos, search] = useVideos('programming')
 
-    useEffect(() => {
+    useEffect(() => { 
         setSelectedVideo(videos[0])
     }, [videos])
 
